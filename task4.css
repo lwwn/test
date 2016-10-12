@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #eff0f4; /*设置背景颜色 字体 最小宽度*/
+    font-family: Microsoft YaHei, serif;
+    min-width: 320px;
+}
+
+img {
+    max-width: 100%;/*  图片最大百分之百  */
+}
+
+.headerbox {
+    width: 100%; /*设置图头部盒子.宽度。颜色。外边框*/
+    background-color: #68cdd5;
+    margin: 0;
+    position: relative;/*  相对定位         */
+}
+.close{
+    position: absolute; /*控制关闭样式，向上，向左的间高，大小 颜色*/
+    left: 1%;
+    top: 25%;
+    font-size: 2.5em;
+    vertical-align: middle;
+    color: white;
+}
+h2{
+                        /*控制登陆标题的样式，以关闭来定位，和设置大小*/
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+.register{    /*控制注册的样式，        */
+    position: absolute;
+    right: 0;
+    top: 25%;
+    font-size: 2.5em;
+    color: white;
+}
+.iphonebox{      /* 用户框和密码框的盒子样式，          */
+    width: 100%;
+    margin-top: 1%;/*  盒子与盒子之间的宽度         */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+
+}
+input{         /*   输入框的样式，        */
+    display: inline-block;/*  设置成 行 快元素样式         */
+    width: 85%;/*  为输入框前的图片留了15%的宽度         */
+    border: none;
+    border-left: 1px solid #eaedee;
+    font-size: 3em;
+    vertical-align: middle;
+}
+label{    /* 用来控制图片的样式          */
+    display: inline-block;
+    margin: 1%;
+
+    vertical-align: middle;
+
+}
+.loginbox{      /*   登陆框的样式        */
+    width: 100%;
+    font-family: Microsoft YaHei, serif;
+    border: none;
+    margin-top: 1%;
+    padding:1% 0;
+    background-color: #68cdd5;
+    font-size: 3.5em ;
+    text-align: center;
+}
+p{
+    font-size: 2em;
+    margin-top: 1%;
+    text-align: right;
+}
+a:link{text-decoration: none;/*  清除链接的下划线，和改变颜色         */
+    color:#5fc0cd;}
+
+
+
+

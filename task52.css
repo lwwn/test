@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62%;
+}
+body{
+    width: 100%;
+    margin: auto;
+    min-width: 320px;
+    font-family: Microsoft YaHei, serif;
+}
+img {
+    max-width: 100%;/*       */
+}
+.headerbox{          /*第一部分开始       */
+    width: 100%;
+    background-color: #5fc0cd;/*  设置，头部盒子宽，颜色，高，     */
+    padding: 3% 0;
+    overflow: hidden;
+    text-align: center;/*  位置     */
+}
+.headderboxui{  /*设置头部盒子里的元素，宽，       */
+    width: 205px;
+    display: inline-block;
+    border-radius: 10%; /*    修饰园角     */
+    background-color: #55a8b3;/*  背景颜色     */
+
+}
+.headderboxli{      /* 设置切换按钮的的颜色，行高，字体大小，      */
+        float: left;
+    border-radius: 5%;
+    display: inline-block;
+    color: white;
+    line-height: 200%;
+    font-size: 3rem;
+    padding: 3%;
+
+}
+.colorli{background-color: #55a8b3;/*左边切换按钮的颜色       */
+
+}
+.headerimg{
+    display: inline-block; /* 头部的图片的样式      */
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.headerspan{      /*  右边图片的样式     */
+
+    background-color: white;
+    color: #5fc0cd ;
+
+}        /*  第二部分开始     */
+.span1{
+    display: inline-block;/* 设置第二部分的文本的样式      */
+    float: left;      /* 文本字体的大小，宽度，和颜色      */
+    width: 33%;
+    font-size: 2.5rem;
+    color: #999999;
+    text-align: center;
+
+}
+.span2{
+    border-right: 1px  solid #999999;/*文本里面的两根竖线线  */
+}
+select{
+ border: none;    /*  清除了下拉列表的边框     */
+    color: #999999;/*         和设置了里面字体的颜色 字体大小    */
+    font-size: 2rem;
+}
+.middlebox{    /*   设置第二部分文本的下划线，    */
+    float: left;
+    width: 100%;   /*   以及位置的调整    */
+    padding: 2% 0;
+    border-bottom: 1px solid #999999;
+}         /* 第三部分样式开始   */
+ul{
+    font-size: 2.5rem;/*   设置第三部分的整体的文字大小，颜色      */
+    color:#999999 ;
+
+}
+li{  width: 100%;  /* 设置第三部分的文字的下划线 和颜色      */
+    border-bottom: 1px solid #999999;
+    float: left;
+
+}
+.span3{       /*   设置左边文本 的缩进     */
+    padding-left: 5%;
+    display: inline-block;
+}
+
+.span4{       /*  设置右边文本的大小，颜色，和间距     */
+    color: red;
+    display:inline-block;
+    float: right;
+    padding-right: 5%;
+    padding-top: 3%;
+
+}  /*  第四部分开始了        */
+.rumpbox {
+
+    width: 66%;   /*    这个大盒子用来装后面的三张图片   */
+    margin: auto;/*    后面的   一张图片一个盒子     */
+
+
+}
+.rumbox1       {/* 第一张图片的样式      */
+    width: 22%;
+    float: left;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.rumbox2{     /* 第二张图片的样式      */
+    width: 22%;
+    float: left;
+    margin-left: 6%;
+
+}
+.rumbox3{ /*   第三张图片的样式       */
+    width: 22%;
+   margin-top: 2%;
+   float: right;
+
+}
+.p1{         /* “首页”文字的大小       */
+
+    font-size: 2rem;
+    color:#5fc0cd;
+}
+.p2{       /*   设置“我的"文字大小     */
+    font-size: 2rem;
+    color: #999999;
+
+}
+
+
+

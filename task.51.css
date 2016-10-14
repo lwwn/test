@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;   /*     */
+}
+html{
+    font-size: 62%;
+}
+body{
+    width: 60%;
+    margin: auto;
+    min-width: 320px;
+    font-family: Microsoft YaHei, serif;
+}
+img{
+    max-width: 100%;
+}
+.headerbox{      /*修饰头部盒子的     */
+    width: 100%;
+    background-color: #5fc0cd;/*  设置背景颜色   */
+    padding-top: 1%;
+    padding-bottom: 1%;/*   加大盒子的高  */
+    float: left;
+    margin: 0;
+    text-align: center;/* 盒子里的文字，大小，颜色，居中    */
+    font-size: 2.5rem;
+    color: white;
+}
+.imgback{
+    display: inline-block;/*  修饰头部盒子的箭头图片   */
+    float: left;
+    text-align: left; /* 设置成内联块元素，设置位置靠左    */
+
+}
+.middlebox{     /*  修饰中部盒子 的样式  */
+    width: 100%;
+    background:url("background.png");
+    background-size: cover;/* 设置宽度，插入背景图片，设置背景图片样式    */
+    padding: 8% 0 8%;
+    float: left;      /*  用padding设置高，设置浮动，清除浮动   */
+    overflow: hidden;
+}
+.imghead {/* 设置中部盒子里的头像的样式    */
+
+    float: left;
+    display: inline-block;/* 设置图片的浮动，设置内联块样式    */
+    border-radius: 50%;
+    margin-left:  2%;  /* 修饰头像图片为园，和设置靠左的间距，    */
+    vertical-align: middle;
+}
+.ulmiddle{ /*  设置中部盒子的文字样式   */
+    display: inline-block;/* 改变为内联块元素，设置文字大小，颜色    */
+    font-size: 3.0rem;
+    color: white;
+    line-height: 4rem;/* 设置行高，用margin调整与头像图片的位置    */
+    margin-left: 5%;
+    margin-top: 3%;
+    vertical-align: middle;/* 这句和上面那句没什么用样    */
+}
+.mddlespan{/* 设置二级文字的大小，颜色    */
+    font-size: 2rem;
+    color: white;
+}
+.middleli{    /* 设置三级文字的大小       */
+    text-indent: 1.5rem;
+    list-style: none;
+    font-size: 2rem;
+    color: white;
+}
+ul{/*  这是设置第三部分的样式      */
+    font-size: 3rem;
+    line-height: 3rem;/*  主要设置了，文字的大小，行高，靠左的间距      */
+    margin-left: 3%;
+}
+a{             /*  设置“专业技能” 字体 的样式   */
+    display: inline-block;
+    border: none;     /*   同样转换内联块样式，边框为空     */
+    border-left: 2px solid #5fc0cd ;/*  设置只有左边边框，颜色      */
+}
+.lixian{  list-style: none;/* 取名真是难为我了，这是设置第三部分，       */
+    border: none;      /*   文字下面的下划线，颜色，行高     */
+    border-bottom:  1px solid #999999;
+    line-height: 5rem;
+    padding: 1.5% 0;/*  同样设置文本框的宽度      */
+
+}
+.spanli{           /*   设置第三部分上半边文字，文字中间的竖线     */
+    display: inline-block;
+    border: none;      /*   方式和上面一样     */
+    border-right: 1px solid #999999;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+.spanli1{         /* 设置第三部分下半边文字，竖线，      */
+    display: inline-block;
+    border: none;        /* 和上半边比，只是文字颜色不一样       */
+    border-right: 1px solid #999999 ;
+    color: #999999;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+
+
+}
+.red{
+    color: red;/*  单独设置“25小时” 的颜色     */
+
+}
+.spanli2{
+    display: inline-block;/* 单独设置最后文本一行，解决了因为文字过多       */
+    width: 55%;      /*     而发生的问题   */
+    vertical-align: middle;
+
+}
+
+
+.iphonebox{/*  设置电话联系的样式      */
+    width: 40%;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    background-color: #5fc0cd;
+    padding: 3%;
+    margin:3% ;
+    border: none;
+    float: left;
+}
+.messagebox{    /*     设置留言的样式   */
+    width: 30%;
+    font-size: 3rem;
+    color: #5fc0cd ;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid  #5fc0cd;
+    padding: 3%;
+    margin: 3%;
+    float: right;
+}

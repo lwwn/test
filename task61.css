@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    min-width: 320px;
+    font-family: Microsoft YaHei, serif;
+    background-color: #f0f0f0;
+}
+img{
+    max-width: 100%;
+}
+header{    /* 设置头部样式  背景和高   */
+    width: 100%;
+    background-color: #29bde0;
+    padding: 3% 0;
+}
+.imgleft{
+    padding-left: 3%; /* 设置头部里图片的位置  第一部分结束  */
+}
+.wrap {
+    width: 90%;  /* 第二部分开始，设置第二部分整体的盒子  */
+    margin: auto;
+    position: relative;
+    background-color: white;
+
+}
+.text{
+    color: #9a9a9a;   /* 设置盒子里面的文本颜色，字体大小  */
+    font-size: 3.8rem;
+    padding: 3% 0;
+    margin: 2% 0;       /*  和高 边线 位置  */
+    border: 1px solid  #9a9a9a;
+    text-align: center;
+}
+.textimg{
+    display: inline-block; /*设置第二部分图片的样式    */
+    position: absolute;
+    right: 3rem;
+}
+                    /*第二部分结束了    */
+
+       /*第三部分开始    */
+.wrap1{
+    width: 90%;   /*  第三部分的整体盒子 宽，位置，边线  */
+    margin: auto;
+    position: relative;
+    border-top: 1px solid #9a9a9a;
+    border-bottom: 1px solid #9a9a9a;
+    border-right: 1px solid #9a9a9a;
+    border-left: 1px solid #9a9a9a;
+    background-color: white;
+    border-radius: 1%;
+}
+.ultext{         /*第三部分第一行的文本样式    */
+    font-size: 3.8rem;
+    text-align: center;
+    color: #fbb435;
+    list-style: none;
+    padding:3% 0;
+
+    border-bottom: 1px solid #fbb435;
+}
+button{    /*  第三部分 二三四行按钮样式  */
+    width: 80%;
+    background-color: #69d1e9;
+    color:white;
+    border: none;
+    font-size: 4rem;
+    padding: 2%;
+    margin:2% 10%;
+}
+
+li{
+    list-style: none; /* 去除li标签前面的小圆点   */
+}
+p{              /*  设置二三四行文字 的大小 */
+    text-align: center;
+    font-size: 2.5rem;
+    color:  #9a9a9a;
+    padding:2% 0;/* 第三部分样式结束 */
+}
+.round{         /* 第四部分开始  */
+    overflow: hidden;
+    padding: 2% 0;
+    width: 35%;        /* 装四个小圆标示的盒子   */
+    margin-left: 43%;
+}
+.round1{
+    border: 1px solid   #9a9a9a;
+    padding: 4%;
+    border-radius: 50%; /* 小圆的样式   */
+    background-color:#9a9a9a ;
+    float:left;
+    margin: 1%;
+
+}
+
+ #div1 a:hover{    /* 小圆被鼠标选中后样式  */
+    display: block;
+    background-color: black;
+    padding: 6%;
+}
+ #div2 a:hover{
+    display: block;
+    background-color:blue;
+    padding: 6%;
+}
+  #div3 a:hover{
+    display: block;
+    background-color: red;
+    padding: 6%;
+}
+ #div4 a:hover{
+    display: block;
+    background-color: yellow;
+    padding: 6%;
+}
+       /*第四部分结束   */

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九宫格JS</title>
+    <link href="tasks.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+<div class="page">
+    <div class="page-small">
+
+    </div>
+    <div class="page-small">
+
+    </div>
+    <div class="page-small">
+
+    </div>
+    <div class="page-small">
+
+    </div>
+    <div class="page-small">
+
+    </div>
+    <div class="page-small">
+
+    </div>
+    <div class="page-small">
+
+    </div>
+    <div class="page-small">
+
+    </div>
+    <div class="page-small">
+
+    </div>
+
+
+</div>
+<script >  //定义一个颜色数组
+    var colorlist = ["#ff0000","#0000ff","00ff00"];
+        //获取随机颜色
+     function getrandomcolor(colorlist){
+         //获取一个随机索引
+         var colorIndex = Math.floor(Math.random()*colorlist.length);
+         //找到索引的颜色
+         var randomcolor = colorlist[colorIndex];
+         //返回这个颜色
+         return randomcolor;
+     }
+     var  smallIndex = -1;
+        //随机改变颜色
+     function  changecolor(){
+         //获取CSS样式
+         var get = document.getElementsByClassName("page-small");
+         //如果不等于-1重置颜色
+         if(smallIndex!=-1){
+
+             get[smallIndex].style.backgroundColor = "yellow";
+         }
+         //获取随机数
+         smallIndex = Math.floor(Math.random()*9);
+         //随机改变格子的颜色
+         get[smallIndex].style.backgroundColor = getrandomcolor(colorlist);
+         var ron;
+         switch(getrandomcolor(colorlist)){
+             case "#ff0000": ron = "红色";
+                 break;
+             case "#0000ff": ron = "蓝色";
+                 break;
+             default: ron = "绿色";
+                 break;
+         }
+         console.log(smallIndex+"号格子改变成了"+ron);
+
+     }
+    setInterval(changecolor,1000);
+</script>
+</body>
+</html>

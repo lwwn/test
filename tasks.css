@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page{
+    width: 60%;
+    margin: auto;
+}
+.page-small{
+    margin: 0.5%;
+    padding: 16%;
+    border-radius: 5%;
+    float: left;
+    background-color: yellow;
+}
